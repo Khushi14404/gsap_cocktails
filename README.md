@@ -1,16 +1,104 @@
-# React + Vite
+# 🍸 **Honey Mint - An Immersive Cocktail Experience**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Honey Mint** is a visually stunning, single-page web experience built with **React** and powered by the **GreenSock Animation Platform (GSAP)**.
+It blends elegant motion, vibrant visuals, and a sophisticated UI to deliver an immersive digital journey through a modern cocktail bar concept.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Elegant Hero Section**: A captivating opening with smooth text and image transitions.
+- **GSAP Animations**: Beautiful and performant animations for text reveals, image fades, and scroll-triggered transitions.
+- **Scroll Interactivity**: Dynamic section animations that engage users as they explore the page.
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile screens.
+- **Modern UI/UX**: A minimal dark aesthetic with light contrasts, ensuring a premium visual experience.
+- **Interactive Menu**: A sleek cocktail menu showcasing different drinks with stylish transitions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Sections Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Each section is built as an independent React component for scalability and reusability:
+
+- **`Hero.jsx`** – The main landing section introducing the brand.
+- **`Cocktails.jsx`** – Displays featured cocktails and mocktails.
+- **`About.jsx`** – Highlights the bar’s philosophy, with a grid layout, images, and customer ratings.
+- **`Art.jsx`** – Explores the craftsmanship and “art of mixology.”
+- **`Menu.jsx`** – Interactive cocktail menu with animated category switching.
+- **`Contact.jsx`** – Footer section containing address, socials, and contact details.
+- **`Navbar.jsx`** – Fixed navigation for smooth scrolling between sections.
+
+---
+
+## 🛠️ Tech Stack
+
+Built using a modern frontend stack for performance and interactivity:
+
+- **Framework:** [React](https://reactjs.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Animation Library:** [GSAP (GreenSock Animation Platform)](https://gsap.com/)
+
+  - `ScrollTrigger` – Scroll-based animations
+  - `SplitText` – Text reveal effects
+
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have **Node.js** and **npm** (or **yarn**) installed.
+
+```bash
+npm install npm@latest -g
+```
+
+### Installation Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Khushi14404/honey-mint-immersive-cocktail-website.git
+   ```
+
+2. **Navigate to the project directory**
+
+   ```bash
+   cd honey-mint-immersive-cocktail-website
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Your project will be live at:
+   👉 `http://localhost:5173/`
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**.
+See `LICENSE` for more information.
+
+---
+
+## 📧 Contact
+
+**Khushi Sharma** – [@Khushi_sh14](https://x.com/Khushi_sh14)
+📩 Email: [ks2004144@gmail.com](mailto:ks2004144@gmail.com)
+
+🔗 **Project Link:** [https://github.com/Khushi14404/honey-mint-immersive-cocktail-website](https://github.com/Khushi14404/honey-mint-immersive-cocktail-website)
+
+---
