@@ -4,7 +4,7 @@ import { useGSAP } from "@gsap/react";
 
 const About = () => {
   useGSAP(() => {
-    const titleSplit = SplitText.create("#about h2", {
+    const titleSplit = SplitText.create("#about h2 ", {
       type: "words",
     });
 
@@ -48,19 +48,35 @@ const About = () => {
           </div>
 
           <div className="sub-content">
-            <p>
+            <p className="para">
               Every cocktail we serve is a reflection of our obsession with
               detail — from the first muddle to the final garnish. That care is
               what turns a simple drink into something truly memorable.
             </p>
 
-            <div>
-              <p className="md:text-3xl text-xl font-bold">
-                <span>4.5</span>/5
-              </p>
-              <p className="text-sm text-white-100">
-                More than +12000 customers
-              </p>
+            <div className="flex flex-row items-center para">
+              <div>
+                <p className="md:text-3xl text-xl font-bold text-yellow">
+                  ★★★★⯪
+                </p>
+
+                <p className="md:text-3xl text-xl font-bold">
+                  <span>4.5</span>/5
+                </p>
+                <p className="text-sm text-white-100">
+                  More than +12000 customers
+                </p>
+              </div>
+              <div className="w-px bg-white h-30 "></div>
+
+              <div className=" flex bg-[#18181a]  items-center justify-center shadow-md  rounded-full h-24 mr-7">
+                <div className="flex flex-row  mr-4">
+                  <img src="/images/profile1.png" className="ml-6" />
+                  <img src="/images/profile2.png" className="-ml-6" />
+                  <img src="/images/profile3.png" className="-ml-6" />
+                  <img src="/images/profile4.png" className="-ml-6" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -68,29 +84,28 @@ const About = () => {
 
       <div className="top-grid">
         <div className="md:col-span-3">
-          <div className="noisy" />
+          <div className="" />
           <img src="/images/abt1.png" alt="grid-img-1" />
         </div>
 
-        <div className="md:col-span-6">
-          <div className="noisy" />
-          <img src="/images/abt2.png" alt="grid-img-2" />
-        </div>
-
         <div className="md:col-span-3">
-          <div className="noisy" />
-          <img src="/images/abt5.png" alt="grid-img-5" />
+          <div className="" />
+          <img src="/images/lines.png" alt="grid-img-5" />
+        </div>
+        <div className="md:col-span-6">
+          <div className="" />
+          <img src="/images/abt2.png" alt="grid-img-2" />
         </div>
       </div>
 
       <div className="bottom-grid">
         <div className="md:col-span-8">
-          <div className="noisy" />
+          <div className="" />
           <img src="/images/abt3.png" alt="grid-img-3" />
         </div>
 
         <div className="md:col-span-4">
-          <div className="noisy" />
+          <div className="" />
           <img src="/images/abt4.png" alt="grid-img-4" />
         </div>
       </div>
